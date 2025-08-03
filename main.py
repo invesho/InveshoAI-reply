@@ -5,6 +5,7 @@ import google.generativeai as gen_ai
 
 # Load environment variables
 load_dotenv()
+password = os.getenv("password")
 
 #Invesho Password
 def check_password():
